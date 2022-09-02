@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+}
+.display{
+    /* width: 100%; */
+    display: flex;
+    /* flex-direction: row; */
+    color: orange;
+    margin: auto;
+    font-size: xxx-large;
+    background-color: red;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(17, 17, 17);
+    background-color: aquamarine;
+    /* margin: auto; */
+}
+.start:hover{
+    cursor: pointer;
+}
+.lap:hover{
+    cursor: pointer;
+}
